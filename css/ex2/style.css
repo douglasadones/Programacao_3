@@ -1,0 +1,46 @@
+body {
+    background-color: aquamarine;
+}
+
+main {
+    background-color: bisque;
+    justify-content: space-evenly;
+}
+
+img {
+    width: 180px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.item {
+    padding: 4px;
+    margin: 0;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    text-align: center;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: aliceblue;
+    justify-content: center;
+}
+
+@media (max-width: 800px) {
+    .item {
+        flex-basis: 48%;
+    }
+}
+
+@media (max-width: 500px) {
+    .item {
+        flex-basis: 98%;
+    }
+}
