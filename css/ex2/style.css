@@ -3,22 +3,24 @@ body {
 }
 
 main {
+    max-width: 1030px;
     background-color: bisque;
     justify-content: space-evenly;
+    margin: 0 auto;
+}
+h1 {
+    display: flex;
+    justify-content: center;
 }
 
 img {
-    width: 180px;
-    height: 100px;
-    object-fit: cover;
-}
-
-.item {
-    padding: 4px;
-    margin: 0;
+    margin: 5px;
     cursor: pointer;
-    transition: transform 0.3s ease;
+    transition: 0.3s;
     text-align: center;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 10px;
 }
 
 img:hover {
@@ -29,18 +31,13 @@ img:hover {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    background-color: aliceblue;
     justify-content: center;
 }
 
-@media (max-width: 800px) {
-    .item {
-        flex-basis: 48%;
-    }
-}
-
-@media (max-width: 500px) {
-    .item {
-        flex-basis: 98%;
+@media (max-width: 900px) {
+    main {
+        max-width: 600px;
+        background-color: bisque;
+        justify-content: space-evenly;
     }
 }
