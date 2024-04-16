@@ -1,0 +1,35 @@
+body {
+    padding: 20px;
+}
+
+main {
+    border-radius: 10px;
+}
+
+img {
+    height: 80px;
+}
+
+header {
+    max-width: 70%;
+    margin: 10px auto;
+    padding: 20px;
+    background-color: gray;
+    box-shadow: 0.2px 1px 1px 1px rgba(0, 0, 0, 0.212);
+    border: 1px solid rgba(0, 0, 0, 0.164);
+    border-radius: 10px;
+}
+
+nav, footer {
+    max-width: 70%;
+    margin: 10px auto;
+    padding: 20px;
+    background-color: gray;
+    box-shadow: 0.2px 1px 1px 1px rgba(0, 0, 0, 0.212);
+    border: 1px solid rgba(0, 0, 0, 0.164);
+    border-radius: 10px;
+}
+
+ul {
+    margin-bottom: 80px;
+}
