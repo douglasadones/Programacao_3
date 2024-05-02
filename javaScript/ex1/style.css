@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 10%;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(137, 43, 226, 0.295);
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    visibility: hidden;
+    border-radius: 10px;
+    border: 2px solid blueviolet;
+    z-index: -1;
+}

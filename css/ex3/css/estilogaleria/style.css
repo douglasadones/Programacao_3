@@ -1,5 +1,11 @@
+* { 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body {
-    padding: 20px;
+    padding: 0px;
     margin: 0 auto;
 }
 
@@ -25,7 +31,7 @@ header {
 }
 
 nav, footer {
-    max-width: 73.5%;
+    max-width: 70%;
     height: 40px;
 
 }
@@ -49,4 +55,9 @@ img {
 
 table {
     margin: 0 auto;
+}
+
+table tr {
+    display: flex;
+    flex-wrap: wrap;
 }
