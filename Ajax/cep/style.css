@@ -1,0 +1,25 @@
+body {
+    font-family: sans-serif;
+}
+
+h2 {
+    text-align: center;
+}
+
+.frame {
+    width: 86%;
+    border: 1px solid darkgray;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 1em;
+    background-color: beige;
+}
+
+.field {
+    margin-bottom: 0.5em;
+}
+
+.field input {
+    float: right;
+    width: 70%;
+}
