@@ -1,0 +1,13 @@
+express é uma biblioteca que trata as requisições http
+
+web application é um programa que atende a requisições http
+
+criando algo com o npm, ele ficará escutando a porta 8080, precisamos acessá-la e realizar uma requisição apra que ele responda.
+
+          HTTP                       |      JS                                     
+computador -> rede -> servidor -> express -> app  |
+computador <- rede <- servidor <- express <- app <
+
+
+para rodar: 
+node server.js
